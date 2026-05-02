@@ -14,4 +14,3 @@ i = {
 };
 console.log(i);
 export {};
-//# sourceMappingURL=basis.js.map

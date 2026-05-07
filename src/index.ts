@@ -1,1 +1,15 @@
-console.log('hello, TypeScript!');
+import { hi } from "./hello"
+function sum(a: number, b: number): number {
+    return a * b
+}
+
+const obj = {
+    name:'张三',
+    age:33
+}
+console.log(obj)
+obj.age = 18
+console.log(obj)
+console.log(sum(100, 200))
+console.log(hi)
+console.log(Promise)

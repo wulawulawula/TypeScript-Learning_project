@@ -9,7 +9,8 @@
                 this.age = age;
                 this.name = name;
             }
-
+            // 抽象方法使用abstract关键字修饰，没有方法体，具体实现由子类完成
+            // 抽象方法必须在子类中实现
             abstract sayHello():void
         }
 

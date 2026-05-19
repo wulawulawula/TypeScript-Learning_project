@@ -1,1 +1,1 @@
-(()=>{"use strict";const o={name:"张三",age:33};console.log(o),o.age=18,console.log(o),console.log(2e4),console.log("你好"),console.log(Promise)})();
+(()=>{"use strict";class s{constructor(){this.name="张三",this.age=18}sayHi(){console.log("hi")}static sayHello(){console.log("hello")}}const o=new s;o.name="李四",console.log(o.name,o.age),o.sayHi(),s.sayHello()})();
